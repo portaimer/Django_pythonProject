@@ -12,3 +12,7 @@ def index(request):
 # Функия для отбражения странички about
 def about(request):
     return render(request, 'main/about.html')
+
+#Функция для отображения странички контакты
+def contact(request):
+    return render(request, 'main/contact.html')
