@@ -23,26 +23,23 @@ aside.logo {
     <!- Отступ влево ->
     margin-left: 10px;
     <!- Настройка шрифта ->
-    font-weight: bold;
+    font - weight: bold;
 }
 
 aside h3{
     <-! Отступ сверху ->
-    color: black;
-    margin-top: 20px;
+    margin-top: 0px;
     font-size: 35px;
-    font-weight: bold;
 }
 
-aside ul {list-style: none} <!- Убрать кружёчки у меню ->
+aside ul{list-style: none} <!- Убрать кружёчки у меню ->
 aside ul li {
     color: #fff
     display: block; <-! Каждый Элемент это блок ->
-    transition: all .6s aese;
 }
 
 <!- Эфект при наведении на тег li, и на тег a ->
-aside ul li:hover, aside ul a:hover {
+aside ul li:hover, aside ul a:hover{
     color: white;
     text-decoration: none;
     transform: scale(1.15);
@@ -53,6 +50,10 @@ aside ul li:hover, aside ul a:hover {
     font-weight: bold;
     font-family: Arial;
     font-size: 18px;
+}
+
+.navivi {
+    padding-top: 730px;
 }
 
 .photo1 {
