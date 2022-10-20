@@ -1,12 +1,81 @@
 body {
-    background: #2c2c2c;
+    background: white;
 }
+
 aside {
     float: left;
-    background: #181818;
-    width: 15%;
+    background: #BFD4D3;
+    width: 13%; <!- Ширина в процентах->
     padding: 2.5%;
     height: 100vh;
-    color: #340570;
-    border-right: 5px solid #4d4d4d
+    color: #F0D8D8;
+    border-right: 5px
+}
+
+aside img {
+    width: 250px;
+    float: left;
+}
+
+aside.logo {
+    <!- Размер шрифта ->
+    font-size: 45px;
+    <!- Отступ влево ->
+    margin-left: 10px;
+    <!- Настройка шрифта ->
+    font - weight: bold;
+}
+
+aside h3{
+    <-! Отступ сверху ->
+    margin-top: 0px;
+    font-size: 35px;
+}
+
+aside ul{list-style: none} <!- Убрать кружёчки у меню ->
+aside ul li {
+    color: #fff
+    display: block; <-! Каждый Элемент это блок ->
+}
+
+<!- Эфект при наведении на тег li, и на тег a ->
+aside ul li:hover, aside ul a:hover{
+    color: white;
+    text-decoration: none;
+    transform: scale(1.15);
+}
+
+.logo {
+    color: black;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 18px;
+}
+
+.navivi {
+    padding-top: 730px;
+}
+
+.photo1 {
+    left: 0;
+    top: 0;
+    height: 485px;
+}
+
+.photo2 {
+    right: 0;
+    top: 0;
+    height: 485px;
+}
+
+.photo3 {
+    left: 0;
+    bottom: 0;
+    height: 485px;
+}
+
+.photo4 {
+    left: 0;
+    bottom: 0;
+    height: 485px;
 }
