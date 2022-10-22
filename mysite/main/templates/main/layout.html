@@ -23,22 +23,14 @@
         <h3>Навигация</h3>
         <ul>
             <a href="{% url 'home' %}"><li><i class="fa-solid fa-house-chimney fa-sm"></i> Главная</li></a>
-            <a href="{% url 'index' %}"><li><i class="fa-solid fa-address-card fa-sm"></i> Про Нас</li></a>
+            <a href="{% url 'about' %}"><li><i class="fa-solid fa-address-card fa-sm"></i> Про Нас</li></a>
             <a href="{% url 'contact' %}"><li><i class="fa-solid fa-phone fa-sm"></i> Контакты</li></a>
         </ul>
     </aside>
-    <main>
-       <img src="{% static 'main/img/architect-1080589__340.jpg' %}" width="820" class="photo1"
-       title="My house">
-        <a href="https://kviz.stroybyro.ru/"><img src="{% static 'main/img/craftsmen-3094035__340.jpg' %}" width="820" class="photo2" title=></a>
-        <img src="{% static 'main/img/electrician-1080554__340.jpg' %}" width="820" class="photo3">
-        <img src="{% static 'main/img/painter-1180676__340.jpg' %}" width="820" class="photo4">
-        {% block content %}
-        {% endblock %}
-    </main>
+
 <!- Динамические секции Html ->
 <!- Типизатор Jinja дает возможность вставлять обьекты текст и все что можно ->
-    <!- {% block cont %} ->
+    <!- {% block content %} ->
 <!- Обязательно закрыть типизатор ->
     <!- {% endblock %} ->
 </body>
