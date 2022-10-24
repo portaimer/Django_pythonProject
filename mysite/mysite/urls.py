@@ -20,8 +20,8 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('main.urls'))
+    path('', include('main.urls')),
     #Обработчик события если пользователь будет переходить по ссылкам news
     #то будет обрабатываться файл который находиться в приложении news
-    path('news/',include('news.url') )
+    path('news/', include('news.urls'))
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

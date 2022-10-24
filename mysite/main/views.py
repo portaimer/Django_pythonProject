@@ -7,7 +7,7 @@ from django.http import HttpResponse
 #Функция для отображения Главной странички
 #Для отображения html шаблона возвращаем #return функци #render (передвть пораметры request и 'путь к шаблону / название шаблона')
 def index(request):
-    return render(request, 'main/index.html')
+    return render(request, 'main/index.html', {'title':'Главная страница'})
 
 # Функия для отбражения странички about
 def about(request):
